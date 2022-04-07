@@ -34,7 +34,7 @@ public class Main {
 			}
 
 			// if there is at least one group of 1s that are adjacent to each other,
-			// then we the minimum number of operations will be 2, otherwise 1
+			// then the minimum number of operations will be 2, otherwise 1
 			boolean adjacent = false;
 			for(int i = 0; i + 1 < n; i++) {
 				adjacent |= (s.charAt(i) == s.charAt(i + 1) && s.charAt(i) == '1');
